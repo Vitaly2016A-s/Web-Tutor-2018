@@ -4,4 +4,4 @@
 
 ### Состав:
 
-* [_hello1](https://github.com/Vitaly2016A-s/Web-Tutor-2018/tree/master/simple/src/1-hello) 
+* [01_hello](https://github.com/Vitaly2016A-s/Web-Tutor-2018/tree/master/simple/src/1-hello) 
