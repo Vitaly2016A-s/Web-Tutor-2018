@@ -1,5 +1,7 @@
 # Web-Tutor-2018
 
-Учебный проект.
+## Учебный проект.
 
-_hello1 - первое задание.
+### Состав:
+
+* [_hello1](https://github.com/Vitaly2016A-s/Web-Tutor-2018/tree/master/simple/src/1-hello) 
