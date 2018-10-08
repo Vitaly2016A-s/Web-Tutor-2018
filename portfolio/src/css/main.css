@@ -1,7 +1,4 @@
 /* Font */
-/*  Google Font  */
-/* @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600|Open+Sans'); */
-/* Local Forder Font */
 @font-face {
   font-family: 'Open Sans - Semibold';
   src: url('../fonts/OpenSans/OpenSans-Semibold-webfont.woff') format('woff');
@@ -35,15 +32,21 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 html {
   height: 100%;
 }
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: 'Open Sans - Semibold', 'Arial', sans-serif;
 }
 h2,
@@ -70,9 +73,13 @@ p {
   padding-right: 30px;
 }
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  flex: 1 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   border: 1px solid black;
   text-align: center;
   margin: 0 auto;
@@ -82,8 +89,12 @@ main {
 }
 .content,
 .sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex: 2 1 auto;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
 }
 .sidebar {
   border: 1px solid black;
