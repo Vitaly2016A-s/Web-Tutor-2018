@@ -1,0 +1,87 @@
+/* About */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  font-family: $font_OpenSans;
+}
+
+h2,
+h3,
+p {
+  font-family: $font_FiraSans;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p{
+  font-weight: 300;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 940px; /* Измерил через авокод */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container .portfolio-image img {
+	height: 34px;
+	border-radius: 34px;
+	margin: 0 auto;
+}
+
+.container .portfolio-name h2 { 
+  color: $color_gray;
+  font-size: 21px;
+  font-family: "Open Sans - Semibold";
+  line-height: 28px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex: 1 0 auto;
+  border: 1px solid $color_black;
+  text-align: center;
+  margin: 0 auto;
+  width: 940px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content,
+.sidebar {
+  display: flex;
+  flex: 2 1 auto;
+}
+
+.sidebar {
+  border: 1px solid $color_black;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  width: 940px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
