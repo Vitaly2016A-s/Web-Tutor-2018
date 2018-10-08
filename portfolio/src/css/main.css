@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600|Open+Sans');
 /* Font */
+/* variables for fonts */
 /* Styles */
 * {
   padding: 0;
@@ -13,6 +14,11 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
+  font: 400 'Open Sans', sans-serif;
+}
+h2,
+h3,
+p {
   font-family: 'Fira Sans', sans-serif;
 }
 h2 {

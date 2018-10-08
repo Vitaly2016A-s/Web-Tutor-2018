@@ -1,6 +1,10 @@
 /* Font */
 
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600|Open+Sans');
+
+/* variables for fonts */
+@font_OpenSans: 'Open Sans', sans-serif;
+@font_FiraSans: 'Fira Sans', sans-serif;
 
 /* Styles */
 
@@ -18,8 +22,14 @@
  	display: flex;
  	height: 100%;
  	flex-direction: column;
- 	font-family: 'Fira Sans', sans-serif;
+ 	font: 400 @font_OpenSans;
  }
+
+h2,
+h3,
+p {
+	font-family: @font_FiraSans;
+}
 
 h2 {
 	font-weight: 500;
