@@ -23,7 +23,7 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
-  font: 400 'Open Sans - Semibold', 'Open Sans' sans-serif;
+  font-family: 'Open Sans - Semibold', 'Open Sans', sans-serif;
 }
 h2,
 h3,
