@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+/* Font */
+/* Styles */
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +13,16 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
+  font-family: 'Fira Sans', sans-serif;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
 }
 .container {
   padding: 20px;
