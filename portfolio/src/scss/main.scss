@@ -43,7 +43,7 @@
 
 .index-main h2 { 
 	color: $color_gray;
-	font-family: "Open Sans - Semibold";
+	font-family: $font_OpenSans;
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 28px;
@@ -60,7 +60,7 @@
 
 .index-footer a{
    color: $color_white;
-   font-family: "Fira Sans";
+   font-family: $font_FiraSans;
    text-decoration: none;
 	 font-size: 15px;
 	 font-weight: 700;
