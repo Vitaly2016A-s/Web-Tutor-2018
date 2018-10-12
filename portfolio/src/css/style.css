@@ -49,7 +49,6 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* *** Content *** */
@@ -58,32 +57,20 @@ html {
   height: 100%; }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
   /* font-family: $font_OpenSans; */ }
 
 /* Header */
 header {
-  width: 940px;
-  margin: 0 auto;
-  padding-top: 11px;
-  padding-bottom: 9px; }
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 10px 0; }
 
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 940px;
   /* Измерил через авокод */
@@ -97,8 +84,6 @@ header .container {
   margin: 0 auto; }
 
 .portfolio-name {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 0 0px;
   flex: 1 0 0;
   margin-left: 20px; }
 
@@ -109,8 +94,6 @@ header .container {
   line-height: 28px; }
 
 .contact-link a {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
   font-family: 'Fira Sans';
   font-weight: 700;
@@ -121,12 +104,8 @@ header .container {
 
 /* Main */
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   border: 1px solid #000;
   text-align: center;
@@ -137,11 +116,7 @@ main {
 
 .content,
 .sidebar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 2;
-  -ms-flex: 2 1 auto;
   flex: 2 1 auto; }
 
 .sidebar {
@@ -151,10 +126,11 @@ main {
 footer {
   text-align: center;
   margin: 0 auto;
+  height: 50px;
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: gray; }
+  background-color: #414141; }
 
 /* *** Fonts *** */
 h2,
@@ -178,14 +154,8 @@ p {
   width: 100%; }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   max-width: 560px;
   margin: 0 auto;
@@ -196,15 +166,8 @@ p {
   width: 300px;
   border: 0;
   border-radius: 0 0 15px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .index-header {
@@ -216,11 +179,7 @@ p {
   margin: 0 auto; }
 
 .index-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
   text-align: center; }
@@ -245,8 +204,10 @@ p {
   font-family: "Fira Sans";
   text-decoration: none;
   font-size: 15px;
+  font-weight: 700;
+  /* line-height: 28px; */
   border: 2px solid #fff;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 12px 15px 13px; }
 
 /* Main SCSS File for CSS compiling */

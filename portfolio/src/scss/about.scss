@@ -22,10 +22,9 @@ body {
 /* Header */
 
 header {
-  width: 940px;
-  margin: 0 auto;
-  padding-top: 11px;
-  padding-bottom: 9px;
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 10px 0;
 }
 
 header .container {
@@ -92,10 +91,11 @@ main {
 footer {
   text-align: center;
   margin: 0 auto;
+  height: 50px;
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: gray;
+  background-color: $color_footer;
 }
 
 /* *** Fonts *** */
