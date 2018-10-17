@@ -72,10 +72,6 @@ main {
   flex: 1 0 auto;
   border: 1px solid $color_black;
   text-align: center;
-  margin: 0 auto;
-  width: 940px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .content,
@@ -85,7 +81,9 @@ main {
 }
 
 .sidebar {
-  border: 1px solid $color_black;
+  text-align: right;
+  color: $color_gray;
+  width: 350px;
 }
 
 /* Footer */
