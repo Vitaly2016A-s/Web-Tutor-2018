@@ -27,6 +27,8 @@ body {
 header {
   width: 100%;
   padding: 10px 0;
+  box-shadow: 0 1px 3px $color_shadow;
+  background-color: $color_white;
 }
 .container {
   display: flex;
@@ -55,11 +57,11 @@ header {
 
 // Profile contact link
 .contact-link {
+  justify-content: flex-end;
   border-bottom: 1px solid $color_contact;
   border-style: none none dotted;
 }
 .contact-link a {
-  justify-content: flex-end;
   color: $color_contact;
   text-decoration: none;
 }
@@ -70,7 +72,6 @@ main {
   display: flex;
   width: 100%;
   flex: 1 0 auto;
-  border: 1px solid $color_black;
   text-align: center;
 }
 

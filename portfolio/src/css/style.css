@@ -67,7 +67,9 @@ body {
 /* Header */
 header {
   width: 100%;
-  padding: 10px 0; }
+  padding: 10px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff; }
 
 .container {
   display: flex;
@@ -90,11 +92,11 @@ header {
   font-weight: 400; }
 
 .contact-link {
+  justify-content: flex-end;
   border-bottom: 1px solid #32c3e5;
   border-style: none none dotted; }
 
 .contact-link a {
-  justify-content: flex-end;
   color: #32c3e5;
   text-decoration: none; }
 
@@ -103,7 +105,6 @@ main {
   display: flex;
   width: 100%;
   flex: 1 0 auto;
-  border: 1px solid #000;
   text-align: center; }
 
 .content,
@@ -115,9 +116,6 @@ main {
   text-align: right;
   color: #414141;
   width: 350px; }
-
-.sidebar ul {
-  text-align: right; }
 
 /* Footer */
 footer {
