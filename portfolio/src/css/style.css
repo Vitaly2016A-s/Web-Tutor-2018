@@ -105,7 +105,7 @@ main {
   display: flex;
   width: 100%;
   flex: 1 0 auto;
-  text-align: center; }
+  /*   text-align: center; */ }
 
 .content,
 .sidebar {
@@ -116,6 +116,14 @@ main {
   text-align: right;
   color: #414141;
   width: 350px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
 
 /* Footer */
 footer {
