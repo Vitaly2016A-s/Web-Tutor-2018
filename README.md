@@ -1,7 +1,10 @@
 # Web-Tutor-2018
 
 Это мой личный учебный проект под моё портфолио.
+UPD: портфолио с этого репозитория перемещено на хостинговый репозиторий.
 
-## Состав:
+Настоящий репозиторий отныне предназначен для мелких тренировок.
 
-[Demo Portfolio](https://github.com/Vitaly2016A-s/Web-Tutor-2018/tree/master/portfolio/src)
+## Content:
+
+[Demo Portfolio (REMOVED - Move to GihHub Hosting)]
