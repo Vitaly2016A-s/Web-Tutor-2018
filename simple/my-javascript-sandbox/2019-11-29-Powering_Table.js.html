@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Powering Table</title>
+</head>
+<body>
+    <!-- HTML -->
+    <div class="wrapper">
+        <div class="container">
+            <h3>See Code in Console</h3>
+            <p>Use <i>Ctrl(Command)+Shift+I</i></p>
+        </div>
+    </div>
+    <!-- JavaScript Code -->
+    <script>
+        // Таблица умножения
+
+        console.log("Таблица умножения\n");
+
+        var a;
+        var b = 0;
+        var c = 1;
+
+        for (i=0; i<10; i++){
+            a = 1;
+            b++;
+            console.log("\n");
+            for (j=0; j<10; j++){
+                c = a * b;
+                console.log(a + " x " + b + " = " + c);
+                a++;
+                }
+        }
+    </script>
+</body>
+</html>
